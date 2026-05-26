@@ -1,6 +1,7 @@
 module "ec2" {
   source = "../terraform-aws-instance"
   ami_id = data.aws_ami.id.id
+  instance_type = var.instance_type
   sg_ids = var.sg_ids
   project = var.project_name
   environment = var.env

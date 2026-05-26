@@ -13,3 +13,7 @@ variable "project_name" {
 variable "component" {
     default = "catalogue"
 }
+
+variable "instance_type" {
+    default = "t3.micro"
+}
