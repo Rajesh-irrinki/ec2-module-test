@@ -1,5 +1,5 @@
 variable "sg_ids" {
-    default = "sg-0238a21d11979a649"
+    default = ["sg-0238a21d11979a649"]
 }
 
 variable "env" {
