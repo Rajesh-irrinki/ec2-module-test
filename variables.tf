@@ -1,0 +1,15 @@
+variable "sg_ids" {
+    default = "sg-0238a21d11979a649"
+}
+
+variable "env" {
+   default = "dev"
+}
+
+variable "project_name" {
+    default = "roboshop"
+}
+
+variable "component" {
+    default = catalogue
+}
