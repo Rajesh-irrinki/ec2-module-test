@@ -11,5 +11,5 @@ variable "project_name" {
 }
 
 variable "component" {
-    default = catalogue
+    default = "catalogue"
 }
