@@ -1,7 +1,7 @@
-data "ami_id" "id" {
+data "aws_ami" "id" {
     owners = ["973714476881"]
 
-    filters {
+    filter {
         name = "name"
         values = ["Redhat-9-DevOps-Practice"]
     }
